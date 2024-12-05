@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto|Allura);
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EEE;
+}
+body, input{
+  font-family: "Roboto";
+  font-size: 1em;
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+
+}
+.checkout p {
+    font-size: 20px;
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.button{
+    width: 100%;
+    background: #0099CC;
+    padding: 10px;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px;
+}
+.button:hover{
+  background: #33B5E5;
+}
+ 
+h1, .credit{
+    font-family: "Roboto Slab";
+  }
+  .credit{
+    text-align: center;
+    font-size: 0.7em;
+    padding: 10px;
+  }
